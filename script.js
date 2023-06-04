@@ -1,5 +1,21 @@
 const elVideo = document.getElementById('video')
 
+const positiveEmotions = ['neutral', 'happy']
+const negativeEmotions = ['sad', 'angry']
+
+const isPositiveEmotion = (emotion) => positiveEmotions.includes(emotion)
+const isNegativeEmotion = (emotion) => negativeEmotions.includes(emotion)
+
+const shouldUpdateUI = (prev, current) => {
+    console.log(`${prev} vs. ${current}`)
+    if (isPositiveEmotion(prev) && isNegativeEmotion(current)) return true
+    if (isNegativeEmotion(prev) && isPositiveEmotion(current)) return false
+    if (isNegativeEmotion(prev) && isNegativeEmotion(current)) return false
+    if (isPositiveEmotion(prev) && isPositiveEmotion(current)) return false
+}
+
+let lastEmotion = 'neutral'
+
 navigator.getMedia = (navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia)
 
 const cargarCamera = () => {
@@ -54,9 +70,14 @@ elVideo.addEventListener('play', async () => {
             return acc;
           }, { key: null, value: -Infinity }).key
 
-        console.log('--- predominant =', predominant)
 
-        document.body.setAttribute('data-emotion', predominant)
+        if (shouldUpdateUI(lastEmotion, predominant)) {
+            document.body.setAttribute('data-emotion', predominant)
+            lastEmotion = predominant
+        }
+
+        console.log('--- lastEmotion =', lastEmotion)
+        console.log('--- predominant =', predominant)
         
         // ponerlas en su sitio
         const resizedDetections = faceapi.resizeResults(detections, displaySize)
