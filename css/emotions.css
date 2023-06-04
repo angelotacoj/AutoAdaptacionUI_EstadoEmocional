@@ -17,7 +17,7 @@ canvas{
 
 .form-step{
     background-color: #76fa54;
-    transition: all 2.5s ease;
+    transition: background-color 2.5s ease;
 }
 
 .form-step{
@@ -27,7 +27,7 @@ canvas{
 .form-body .form-next{
     margin: 0 !important;
     background-color: #76fa54;
-    transition: all 2.5s ease;
+    transition: background-color 2.5s ease;
 }
 
 .row-center > *{
