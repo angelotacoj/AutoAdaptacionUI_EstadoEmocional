@@ -102,6 +102,14 @@ body{
     display: none;
 }
 
+.options .option-w-icon svg{
+    display: none;
+}
+
+.tabs .menu-tab a svg{
+    display: block;
+}
+
 
 /* .card{
     background-color: turquoise;
@@ -201,6 +209,10 @@ body[data-emotion="neutral"] .affiliation-dropdown.checked .info svg{
 }
 
 body[data-emotion="neutral"] .btn-icon-left svg{
+    display: none;
+}
+
+body[data-emotion="neutral"] .options .option-w-icon svg{
     display: none;
 }
 
