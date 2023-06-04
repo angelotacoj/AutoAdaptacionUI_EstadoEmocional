@@ -112,7 +112,7 @@
                                 </g>
                             </g>
                         </svg>
-                        <h1> <span>Hola Martín,</span> <br> indícanos tu edad:</h1>
+                        <h1> <span id="hello"></span> <br> indícanos tu edad:</h1>
                     </div>
                     <div class="form-body">
                         <div class="form-label">
@@ -134,107 +134,107 @@
                                     </svg>
                                 </a>
                                 <div class="picker">
-                                    <div class="choice chosen">0</div>
-                                    <div class="choice">1</div>
-                                    <div class="choice">2</div>
-                                    <div class="choice">3</div>
-                                    <div class="choice">4</div>
-                                    <div class="choice">5</div>
-                                    <div class="choice">6</div>
-                                    <div class="choice">7</div>
-                                    <div class="choice">8</div>
-                                    <div class="choice">9</div>
-                                    <div class="choice">10</div>
-                                    <div class="choice">11</div>
-                                    <div class="choice">12</div>
-                                    <div class="choice">13</div>
-                                    <div class="choice">14</div>
-                                    <div class="choice">15</div>
-                                    <div class="choice">16</div>
-                                    <div class="choice">17</div>
-                                    <div class="choice">18</div>
-                                    <div class="choice">19</div>
-                                    <div class="choice">20</div>
-                                    <div class="choice">21</div>
-                                    <div class="choice">22</div>
-                                    <div class="choice">23</div>
-                                    <div class="choice">24</div>
-                                    <div class="choice">25</div>
-                                    <div class="choice">26</div>
-                                    <div class="choice">27</div>
-                                    <div class="choice">28</div>
-                                    <div class="choice">29</div>
-                                    <div class="choice">30</div>
-                                    <div class="choice">31</div>
-                                    <div class="choice">32</div>
-                                    <div class="choice">33</div>
-                                    <div class="choice">34</div>
-                                    <div class="choice">35</div>
-                                    <div class="choice">36</div>
-                                    <div class="choice">37</div>
-                                    <div class="choice">38</div>
-                                    <div class="choice">39</div>
-                                    <div class="choice">40</div>
-                                    <div class="choice">41</div>
-                                    <div class="choice">42</div>
-                                    <div class="choice">43</div>
-                                    <div class="choice">44</div>
-                                    <div class="choice">45</div>
-                                    <div class="choice">46</div>
-                                    <div class="choice">47</div>
-                                    <div class="choice">48</div>
-                                    <div class="choice">49</div>
-                                    <div class="choice">50</div>
-                                    <div class="choice">51</div>
-                                    <div class="choice">52</div>
-                                    <div class="choice">53</div>
-                                    <div class="choice">54</div>
-                                    <div class="choice">55</div>
-                                    <div class="choice">56</div>
-                                    <div class="choice">57</div>
-                                    <div class="choice">58</div>
-                                    <div class="choice">59</div>
-                                    <div class="choice">60</div>
-                                    <div class="choice">61</div>
-                                    <div class="choice">62</div>
-                                    <div class="choice">63</div>
-                                    <div class="choice">64</div>
-                                    <div class="choice">65</div>
-                                    <div class="choice">66</div>
-                                    <div class="choice">67</div>
-                                    <div class="choice">68</div>
-                                    <div class="choice">69</div>
-                                    <div class="choice">70</div>
-                                    <div class="choice">71</div>
-                                    <div class="choice">72</div>
-                                    <div class="choice">73</div>
-                                    <div class="choice">74</div>
-                                    <div class="choice">75</div>
-                                    <div class="choice">76</div>
-                                    <div class="choice">77</div>
-                                    <div class="choice">78</div>
-                                    <div class="choice">79</div>
-                                    <div class="choice">80</div>
-                                    <div class="choice">81</div>
-                                    <div class="choice">82</div>
-                                    <div class="choice">83</div>
-                                    <div class="choice">84</div>
-                                    <div class="choice">85</div>
-                                    <div class="choice">86</div>
-                                    <div class="choice">87</div>
-                                    <div class="choice">88</div>
-                                    <div class="choice">89</div>
-                                    <div class="choice">90</div>
-                                    <div class="choice">91</div>
-                                    <div class="choice">92</div>
-                                    <div class="choice">93</div>
-                                    <div class="choice">94</div>
-                                    <div class="choice">95</div>
-                                    <div class="choice">96</div>
-                                    <div class="choice">97</div>
-                                    <div class="choice">98</div>
-                                    <div class="choice">99</div>
-                                    <div class="choice">100</div>
+                                    <div class="choice chosen" data-age="0">0</div>
+                                    <div class="choice" data-age="1">1</div>
+                                    <div class="choice" data-age="2">2</div>
+                                    <div class="choice" data-age="3">3</div>
+                                    <div class="choice" data-age="4">4</div>
+                                    <div class="choice" data-age="5">5</div>
+                                    <div class="choice" data-age="6">6</div>
+                                    <div class="choice" data-age="0">7</div>
+                                    <div class="choice" data-age="0">8</div>
+                                    <div class="choice" data-age="0">9</div>
+                                    <div class="choice" data-age="0">10</div>
+                                    <div class="choice" data-age="0">11</div>
+                                    <div class="choice" data-age="0">12</div>
+                                    <div class="choice" data-age="0">13</div>
+                                    <div class="choice" data-age="0">14</div>
+                                    <div class="choice" data-age="0">15</div>
+                                    <div class="choice" data-age="0">16</div>
+                                    <div class="choice" data-age="0">17</div>
+                                    <div class="choice" data-age="0">18</div>
+                                    <div class="choice" data-age="0">19</div>
+                                    <div class="choice" data-age="0">20</div>
+                                    <div class="choice" data-age="0">21</div>
+                                    <div class="choice" data-age="0">22</div>
+                                    <div class="choice" data-age="0">23</div>
+                                    <div class="choice" data-age="0">24</div>
+                                    <div class="choice" data-age="0">25</div>
+                                    <div class="choice" data-age="0">26</div>
+                                    <div class="choice" data-age="0">27</div>
+                                    <div class="choice" data-age="0">28</div>
+                                    <div class="choice" data-age="0">29</div>
+                                    <div class="choice" data-age="0">30</div>
+                                    <div class="choice" data-age="0">31</div>
+                                    <div class="choice" data-age="0">32</div>
+                                    <div class="choice" data-age="0">33</div>
+                                    <div class="choice" data-age="0">34</div>
+                                    <div class="choice" data-age="0">35</div>
+                                    <div class="choice" data-age="0">36</div>
+                                    <div class="choice" data-age="0">37</div>
+                                    <div class="choice" data-age="0">38</div>
+                                    <div class="choice" data-age="0">39</div>
+                                    <div class="choice" data-age="0">40</div>
+                                    <div class="choice" data-age="0">41</div>
+                                    <div class="choice" data-age="0">42</div>
+                                    <div class="choice" data-age="0">43</div>
+                                    <div class="choice" data-age="0">44</div>
+                                    <div class="choice" data-age="0">45</div>
+                                    <div class="choice" data-age="0">46</div>
+                                    <div class="choice" data-age="0">47</div>
+                                    <div class="choice" data-age="0">48</div>
+                                    <div class="choice" data-age="0">49</div>
+                                    <div class="choice" data-age="0">50</div>
+                                    <div class="choice" data-age="0">51</div>
+                                    <div class="choice" data-age="0">52</div>
+                                    <div class="choice" data-age="0">53</div>
+                                    <div class="choice" data-age="0">54</div>
+                                    <div class="choice" data-age="0">55</div>
+                                    <div class="choice" data-age="0">56</div>
+                                    <div class="choice" data-age="0">57</div>
+                                    <div class="choice" data-age="0">58</div>
+                                    <div class="choice" data-age="0">59</div>
+                                    <div class="choice" data-age="0">60</div>
+                                    <div class="choice" data-age="0">61</div>
+                                    <div class="choice" data-age="0">62</div>
+                                    <div class="choice" data-age="0">63</div>
+                                    <div class="choice" data-age="0">64</div>
+                                    <div class="choice" data-age="0">65</div>
+                                    <div class="choice" data-age="0">66</div>
+                                    <div class="choice" data-age="0">67</div>
+                                    <div class="choice" data-age="0">68</div>
+                                    <div class="choice" data-age="0">69</div>
+                                    <div class="choice" data-age="0">70</div>
+                                    <div class="choice" data-age="0">71</div>
+                                    <div class="choice" data-age="0">72</div>
+                                    <div class="choice" data-age="0">73</div>
+                                    <div class="choice" data-age="0">74</div>
+                                    <div class="choice" data-age="0">75</div>
+                                    <div class="choice" data-age="0">76</div>
+                                    <div class="choice" data-age="0">77</div>
+                                    <div class="choice" data-age="0">78</div>
+                                    <div class="choice" data-age="0">79</div>
+                                    <div class="choice" data-age="0">80</div>
+                                    <div class="choice" data-age="0">81</div>
+                                    <div class="choice" data-age="0">82</div>
+                                    <div class="choice" data-age="0">83</div>
+                                    <div class="choice" data-age="0">84</div>
+                                    <div class="choice" data-age="0">85</div>
+                                    <div class="choice" data-age="0">86</div>
+                                    <div class="choice" data-age="0">87</div>
+                                    <div class="choice" data-age="0">88</div>
+                                    <div class="choice" data-age="0">89</div>
+                                    <div class="choice" data-age="0">90</div>
+                                    <div class="choice" data-age="0">91</div>
+                                    <div class="choice" data-age="0">92</div>
+                                    <div class="choice" data-age="0">93</div>
+                                    <div class="choice" data-age="0">94</div>
+                                    <div class="choice" data-age="0">95</div>
+                                    <div class="choice" data-age="0">96</div>
+                                    <div class="choice" data-age="0">97</div>
+                                    <div class="choice" data-age="0">98</div>
+                                    <div class="choice" data-age="0">99</div>
+                                    <div class="choice" data-age="0">100</div>
                                 </div>
                                 <a href="" class="next">
                                     <svg width="37px" height="36px" viewBox="0 0 37 36" version="1.1"
@@ -280,6 +280,8 @@
     <script src="js/main.js"></script>
     <script src="face-api.min.js" defer></script>
     <!-- <script src="script.js" defer type="module"></script> -->
+    <script src="state.js" defer type="module"></script>
+
 </body>
 
 </html>
