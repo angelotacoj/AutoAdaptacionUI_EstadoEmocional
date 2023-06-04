@@ -1,0 +1,341 @@
+/* Codigo CSS para ocultar el video-frame forzosamente*/
+
+#video,
+.landmark{
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -9999999;
+}
+
+canvas{
+    display: none;
+}
+
+/* UI - Interfaz 0 ------------------------------------------------------------------------------------------*/
+
+.form-step{
+    background-color: #76fa54;
+    transition: all 1s ease;
+}
+
+.form-step{
+    border-top: 10px solid #76fa54;
+}
+
+.form-body .form-next{
+    margin: 0 !important;
+    background-color: #76fa54;
+}
+
+.row-center > *{
+    margin: 0;
+}
+
+li .row-center h6{
+    display: none;
+}
+
+.carousel-wrap .carousel-head > *:last-child{
+    display: none;
+}
+
+.buttons-3{
+    flex-flow: row-reverse;
+}
+
+a.btn-icon-text.btn-icon-text-3{
+    text-indent: -9999px
+}
+
+a.btn-icon-text.btn-icon-text-3 img{
+    margin: 0;
+}
+
+.wallet-icon{
+    display: none;
+}
+
+.list-center{
+    flex-flow: column-reverse;
+}
+
+.row-sp-btwn{
+    justify-content: space-evenly;
+}
+
+.icon-3{
+    display: none;
+}
+
+body{
+    font-size: 8px;
+}
+
+.dropdown .dropdown-toggle svg{
+    display: none;
+}
+
+.form-heading svg{
+    display: none;
+}
+
+.form-body a svg{
+    display: none;
+}
+
+
+/* .card{
+    background-color: turquoise;
+} */
+
+/* NEUTRAL ------------------------------------------------------------------------------------------*/ 
+
+body[data-emotion="neutral"] .row-center > *{
+    margin: 0;
+}
+
+body[data-emotion="neutral"] li .row-center h6{
+    display: none;
+}
+
+body[data-emotion="neutral"] .carousel-wrap .carousel-head > *:last-child{
+    display: none;
+}
+
+body[data-emotion="neutral"] .buttons-3{
+    flex-flow: row-reverse;
+}
+
+body[data-emotion="neutral"] a.btn-icon-text.btn-icon-text-3{
+    text-indent: -9999px
+}
+
+body[data-emotion="neutral"] a.btn-icon-text.btn-icon-text-3 img{
+    margin: 0;
+}
+
+body[data-emotion="neutral"] .wallet-icon{
+    display: none;
+}
+
+body[data-emotion="neutral"] .list-center{
+    flex-flow: column-reverse;
+}
+
+body[data-emotion="neutral"] .row-sp-btwn{
+    justify-content: space-evenly;
+}
+
+body[data-emotion="neutral"] .icon-3{
+    display: none;
+}
+
+body[data-emotion="neutral"]{
+    font-size: 8px;
+}
+
+body[data-emotion="neutral"] .form-step{
+    background-color: #76fa54;
+}
+
+body[data-emotion="neutral"] .form-step{
+    border-top: 10px solid #76fa54;
+}
+
+body[data-emotion="neutral"] .form-body .form-next{
+    margin: 0 !important;
+    background-color: #76fa54;
+}
+
+body[data-emotion="neutral"] #download-old-tickets{
+    background-color: turquoise;
+}
+
+body[data-emotion="neutral"] .row-center > *{
+    margin: 0;
+}
+
+body[data-emotion="neutral"] li .row-center h6{
+    display: none;
+}
+
+body[data-emotion="neutral"] .dropdown .dropdown-toggle svg{
+    display: none;
+}
+
+body[data-emotion="neutral"] .form-heading svg{
+    display: none;
+}
+
+body[data-emotion="neutral"] .form-body a svg{
+    display: none;
+}
+
+/* SAD ------------------------------------------------------------------------------------------*/
+
+body[data-emotion="sad"]{
+    background-color: #fff;
+}
+
+body[data-emotion="sad"]{
+    font-size: 12px;
+}
+
+body[data-emotion="sad"] .form-step{
+    background-color: antiquewhite;
+}
+
+body[data-emotion="sad"] .form-step{
+    border-top: 10px solid antiquewhite;
+}
+
+body[data-emotion="sad"] .form-next{
+    background-color: antiquewhite;
+}
+
+body[data-emotion="sad"] #download-old-tickets{
+    background-color: antiquewhite;
+}
+
+body[data-emotion="sad"] h2{
+    font-size: 25px;
+}
+
+body[data-emotion="sad"] #do-payment{
+    font-size: 20px;
+}
+
+body[data-emotion="sad"] .row-center > *{
+    margin: 0 10px 0 0;
+}
+
+body[data-emotion="sad"] li .row-center h6{
+    display:block;
+}
+
+body[data-emotion="sad"] .buttons-3{
+    flex-flow: row;
+}
+
+body[data-emotion="sad"] a.btn-icon-text.btn-icon-text-3{
+    text-indent: 0;
+    font-size: 14px;
+}
+
+body[data-emotion="sad"] .dropdown .dropdown-toggle svg{
+    display: block;
+}
+
+body[data-emotion="sad"] .form-heading svg{
+    display: block;
+}
+
+body[data-emotion="sad"] .form-body a svg{
+    display: block;
+}
+
+/* ANGRY ------------------------------------------------------------------------------------------*/
+
+body[data-emotion="angry"]{
+    background-color: #fff;
+}
+
+body[data-emotion="angry"]{
+    font-size: 16px;
+}
+
+body[data-emotion="angry"] .form-step{
+    background-color: aliceblue;
+}
+
+body[data-emotion="angry"] .form-next{
+    background-color: aliceblue;
+}
+
+body[data-emotion="angry"] .form-step{
+    border-top: 10px solid aliceblue;
+}
+
+body[data-emotion="sad"] #download-old-tickets{
+    background-color: aliceblue;
+}
+
+body[data-emotion="angry"] h2{
+    font-size: 25px;
+}
+
+body[data-emotion="angry"] #do-payment{
+    font-size: 20px;
+}
+
+body[data-emotion="angry"] .row-center > *{
+    margin: 0 10px 0 0;
+}
+
+body[data-emotion="angry"] li .row-center h6{
+    display:block;
+}
+
+body[data-emotion="angry"] .buttons-3{
+    flex-flow: row;
+}
+
+body[data-emotion="angry"] a.btn-icon-text.btn-icon-text-3{
+    text-indent: 0;
+    font-size: 14px;
+}
+
+body[data-emotion="angry"] .row-center > *{
+    margin: 0;
+}
+
+body[data-emotion="angry"] li .row-center h6{
+    display: block;
+}
+
+body[data-emotion="angry"] .carousel-wrap .carousel-head > *:last-child{
+    display: block;
+}
+
+body[data-emotion="angry"] .wallet-icon{
+    display: block;
+}
+
+body[data-emotion="angry"] .cc-short{
+    font-size: 10px;
+}
+
+body[data-emotion="angry"] .icon-3{
+    display: block;
+}
+
+body[data-emotion="angry"] .row-sp-btwn{
+    justify-content: space-between;
+}
+
+/* HAPPY ------------------------------------------------------------------------------------------*/
+
+/* body[data-emotion="happy"]{
+    background-color: green;
+} */
+
+/* DISGUST ------------------------------------------------------------------------------------------*/
+
+/* body[data-emotion="disgust"]{
+    background-color: aqua;
+} */
+
+/* FEARFUL ------------------------------------------------------------------------------------------*/
+
+/* body[data-emotion="fearful"]{
+    background-color: blueviolet;
+} */
+
+/* SURPRISED ------------------------------------------------------------------------------------------*/
+/* 
+body[data-emotion="surprised"]{
+    background-color: yellow;
+} */
+

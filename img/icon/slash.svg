@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="64px" viewBox="0 0 65 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 61.2 (101010) - https://sketch.com -->
+    <title>5B2D3785-4CDC-4AD7-887B-3E4DBCEF876A</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/general/slash" transform="translate(0.225655, 0.000000)" fill-rule="nonzero">
+            <rect id="frame" x="0" y="0" width="64" height="64"></rect>
+            <path d="M32,2.66666667 C48.2003527,2.66666667 61.3333333,15.7996473 61.3333333,32 C61.3333333,48.2003527 48.2003527,61.3333333 32,61.3333333 C15.7996473,61.3333333 2.66666667,48.2003527 2.66666667,32 C2.66666667,15.7996473 15.7996473,2.66666667 32,2.66666667 Z M8,32 C8,45.254834 18.745166,56 32,56 C37.6665562,56 42.8744363,54.0361743 46.9801759,50.7519873 L13.2488101,17.0188272 C9.96414363,21.1247206 8,26.3329852 8,32 Z M32,8 C26.3329852,8 21.1247206,9.96414363 17.0188272,13.2488101 L50.7519873,46.9801759 C54.0361743,42.8744363 56,37.6665562 56,32 C56,18.745166 45.254834,8 32,8 Z" id="Combined-Shape" fill="#30C7DB"></path>
+        </g>
+    </g>
+</svg>

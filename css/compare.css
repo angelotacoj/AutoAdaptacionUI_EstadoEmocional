@@ -1,0 +1,244 @@
+.program-compare{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.program-c-ch{
+    border: 2px solid #F2F6F9;
+    border-radius: 16px 0 16px 0;
+    background-color: #FFFFFF;
+}
+
+.program-c-ch.active{
+    border: 2px solid #005892;
+}
+
+.program-compare .program-c-ch{
+    width: calc(25% - 12px*3/4);
+    margin-right: 12px;
+    margin-bottom: 12px;
+    padding: 12px;
+}
+
+.program-compare .program-c-ch:nth-child(4){
+    margin-right: 0;
+}
+
+.program-c-ch .program-c-ch-t{
+    font-family: 'Montserrat-ExtraBold';
+    height: 48px;
+}
+
+.program-c-ch.active .program-c-ch-t{
+    color: #005892;
+}   
+
+.program-c-ch p{
+    font-size: 0.916em;
+}
+
+.program-c-ch .program-c-ch-a{
+    font-family: 'Montserrat-Regular';
+    margin-bottom: 3px;
+}
+
+.program-c-ch .program-c-ch-p{
+    font-family: 'Montserrat-Regular';
+    color: #03A8C9;
+    margin-bottom: 3px;
+}
+
+.program-c-ch .program-c-ch-s{
+    color: #06A85F;
+}
+
+.program-c-tax{
+    font-family: 'Montserrat-Regular';
+    font-size: 0.916em;
+    width: 100%;
+    text-align: center;
+    color: #213C51;
+}
+
+.program-c-dt{
+    width: 100%;
+    border-radius: 16px 0 16px 0;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(121,144,176,.2);
+}
+
+.program-compare .program-c-dt{
+    margin-bottom: 10px;
+}
+
+.program-compare .program-c-dt:nth-child(odd){
+    background-color: #F7F8F9;
+}
+
+.program-c-dt .program-c-dt-h{
+    width: 100%;
+    padding: 13px 24px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.program-c-dt.active .program-c-dt-h{
+    padding-bottom: 6.5px;
+}
+
+.program-c-dt-h p{
+    font-family: 'Montserrat-Bold';
+    color: #005892;
+    flex: 1;
+}
+
+.program-c-dt-h button{
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    transform: rotate(180deg);
+}
+
+.program-c-dt.active .program-c-dt-h button{
+    transform: rotate(0);
+    transition: all .3s ease;
+}
+
+.program-c-dt-h button img{
+    width: 100%;
+    height: 100%;
+}
+
+.program-c-dt .program-c-dt-b{
+    display: none;
+}
+
+.program-c-dt.active .program-c-dt-b{
+    width: 100%;
+    padding: 13px 24px;
+    padding-top: 6.5px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.program-c-dt-b p{
+    font-size: .916em;
+    line-height: 1.6;
+    font-family: 'Montserrat-Medium';
+    color: #213C51;
+    width: 25%;
+    text-align: center;
+}
+
+.program-c-dt-b p.active{
+    font-family: 'Montserrat-Bold';
+    color: #005892;
+}
+
+.program-c-f{
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.program-c-f .program-c-f-ch{
+    width: calc(25% - 21px*3/4);
+    text-align: center;
+    margin-right: 21px;
+}
+
+.program-c-f .program-c-f-ch:last-of-type{
+    margin-right: 0;
+}
+
+.program-c-f .program-c-f-ch p{
+    font-family: 'Montserrat-ExtraBold';
+    font-size: .916em;
+    padding: 8px 0 12px 0;
+}
+
+.program-c-f .program-c-f-ch.active p{
+    color: #005892;
+}
+
+.program-c-dscl{
+    font-size: 1.083em;
+    margin-top: 18px;
+}
+
+@media (max-width: 618px){
+    .program-compare .program-c-ch{
+        text-align: center;
+        padding: 10px 2px;
+    }
+
+    .program-c-ch .program-c-ch-a,
+    .program-c-ch .program-c-ch-p{
+        margin-bottom: 10px;
+    }
+
+    .program-c-dt .program-c-dt-h{
+        padding: 12px 10px;
+    }
+
+    .program-c-dt.active .program-c-dt-h{
+        padding-bottom: 5px;
+    }
+
+    .program-c-dt .program-c-dt-b{
+        padding: 12px 10px;
+        padding-top: 5px;
+    }
+
+    .program-c-f .program-c-f-ch a{
+        padding: 11px 4px;
+    }
+
+    .program-c-f.fixed{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 561px){
+    .program-c-ch .program-c-ch-t{
+        font-size: 9px;
+        height: 28px;
+    }
+
+    .program-c-f .program-c-f-ch a,
+    .program-c-dt-h p,
+    .program-c-dt-b p{
+        font-size: 9px;
+    }
+
+    .program-c-f .program-c-f-ch{
+        width: calc(25% - 4px*3/4);
+        margin-right: 4px;
+    }
+
+    .program-c-f .program-c-f-ch p{
+        height: 40px;
+    }
+
+    .program-c-dt-h button{
+        width: 18px;
+        height: 18px;
+    }
+
+    .program-c-dscl{
+        font-size: 9px;
+        text-align: center;
+    }
+}
