@@ -1069,16 +1069,36 @@ h1 span.smalltitle{
     border-radius: 5px;
 }
 
-.progress-bar .bar.bar-quarter::after{
+.progress-bar .bar.bar-12-5::after{
+    width: 12.5%;
+}
+
+.progress-bar .bar.bar-25::after{
     width: 25%;
 }
 
-.progress-bar .bar.bar-half::after{
+.progress-bar .bar.bar-37-5::after{
+    width: 37.5%;
+}
+
+.progress-bar .bar.bar-50::after{
     width: 50%;
 }
 
-.progress-bar .bar.bar-threequarters::after{
+.progress-bar .bar.bar-62-5::after{
+    width: 62.5%;
+}
+
+.progress-bar .bar.bar-75::after{
     width: 75%;
+}
+
+.progress-bar .bar.bar-87-5::after{
+    width: 87.5%;
+}
+
+.progress-bar .bar.bar-100::after{
+    width: 100%;
 }
 
 .form-step .progress-bar{

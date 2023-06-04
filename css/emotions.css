@@ -17,7 +17,7 @@ canvas{
 
 .form-step{
     background-color: #76fa54;
-    transition: all 1s ease;
+    transition: all 2.5s ease;
 }
 
 .form-step{
@@ -27,6 +27,7 @@ canvas{
 .form-body .form-next{
     margin: 0 !important;
     background-color: #76fa54;
+    transition: all 2.5s ease;
 }
 
 .row-center > *{
@@ -85,6 +86,30 @@ body{
     display: none;
 }
 
+.age-picker::before{
+    display: none;
+}
+
+.affiliation-dropdown.checked .info svg{
+    display: none;
+}
+
+.btn-icon-left svg{
+    display: none;
+}
+
+.affiliation-dropdown .info svg{
+    display: none;
+}
+
+.options .option-w-icon svg{
+    display: none;
+}
+
+.tabs .menu-tab a svg{
+    display: block;
+}
+
 
 /* .card{
     background-color: turquoise;
@@ -138,6 +163,7 @@ body[data-emotion="neutral"]{
 
 body[data-emotion="neutral"] .form-step{
     background-color: #76fa54;
+    transition: all 2.5s ease;
 }
 
 body[data-emotion="neutral"] .form-step{
@@ -147,6 +173,7 @@ body[data-emotion="neutral"] .form-step{
 body[data-emotion="neutral"] .form-body .form-next{
     margin: 0 !important;
     background-color: #76fa54;
+    transition: all 2.5s ease;
 }
 
 body[data-emotion="neutral"] #download-old-tickets{
@@ -173,6 +200,22 @@ body[data-emotion="neutral"] .form-body a svg{
     display: none;
 }
 
+body[data-emotion="neutral"] .age-picker::before{
+    display: none;
+}
+
+body[data-emotion="neutral"] .affiliation-dropdown.checked .info svg{
+    display: none;
+}
+
+body[data-emotion="neutral"] .btn-icon-left svg{
+    display: none;
+}
+
+body[data-emotion="neutral"] .options .option-w-icon svg{
+    display: none;
+}
+
 /* SAD ------------------------------------------------------------------------------------------*/
 
 body[data-emotion="sad"]{
@@ -185,6 +228,7 @@ body[data-emotion="sad"]{
 
 body[data-emotion="sad"] .form-step{
     background-color: antiquewhite;
+    transition: all 2.5s ease;
 }
 
 body[data-emotion="sad"] .form-step{
@@ -193,6 +237,7 @@ body[data-emotion="sad"] .form-step{
 
 body[data-emotion="sad"] .form-next{
     background-color: antiquewhite;
+    transition: all 2.5s ease;
 }
 
 body[data-emotion="sad"] #download-old-tickets{
@@ -236,6 +281,18 @@ body[data-emotion="sad"] .form-body a svg{
     display: block;
 }
 
+body[data-emotion="sad"] .age-picker::before{
+    display: block;
+}
+
+body[data-emotion="sad"] .affiliation-dropdown.checked .info svg{
+    display: block;
+}
+
+body[data-emotion="sad"] .btn-icon-left svg{
+    display: block;
+}
+
 /* ANGRY ------------------------------------------------------------------------------------------*/
 
 body[data-emotion="angry"]{
@@ -248,10 +305,12 @@ body[data-emotion="angry"]{
 
 body[data-emotion="angry"] .form-step{
     background-color: aliceblue;
+    transition: all 2.5s ease;
 }
 
 body[data-emotion="angry"] .form-next{
     background-color: aliceblue;
+    transition: all 2.5s ease;
 }
 
 body[data-emotion="angry"] .form-step{
@@ -313,6 +372,30 @@ body[data-emotion="angry"] .icon-3{
 
 body[data-emotion="angry"] .row-sp-btwn{
     justify-content: space-between;
+}
+
+body[data-emotion="angry"] .dropdown .dropdown-toggle svg{
+    display: block;
+}
+
+body[data-emotion="angry"] .form-heading svg{
+    display: block;
+}
+
+body[data-emotion="angry"] .form-body a svg{
+    display: block;
+}
+
+body[data-emotion="angry"] .age-picker::before{
+    display: block;
+}
+
+body[data-emotion="angry"] .affiliation-dropdown.checked .info svg{
+    display: block;
+}
+
+body[data-emotion="angry"] .btn-icon-left svg{
+    display: block;
 }
 
 /* HAPPY ------------------------------------------------------------------------------------------*/
