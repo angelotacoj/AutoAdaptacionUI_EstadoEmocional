@@ -16,17 +16,17 @@ canvas{
 /* UI - Interfaz 0 ------------------------------------------------------------------------------------------*/
 
 .form-step{
-    background-color: #76fa54;
+    background-color: turquoise;
     transition: background-color 2.5s ease;
 }
 
 .form-step{
-    border-top: 10px solid #76fa54;
+    border-top: 10px solid turquoise;
 }
 
 .form-body .form-next{
     margin: 0 !important;
-    background-color: #76fa54;
+    background-color: turquoise;
     transition: background-color 2.5s ease;
 }
 
@@ -110,6 +110,36 @@ body{
     display: block;
 }
 
+a.btn-primary{
+    background-color: turquoise;
+}
+
+a.btn-primary:hover{
+    background-color: turquoise;
+}
+
+.btn-icon.color-primary.semi-bold svg{
+    display: none;
+}
+
+.tag svg{
+    display: none;
+}
+
+.form-content.form-column.w-progress svg{
+    display: none;
+}
+
+/*  */
+
+.form-content .form-grid {
+    display: block;
+}
+
+.form-grid .form-body{
+    width: 100%;
+}
+
 
 /* .card{
     background-color: turquoise;
@@ -162,17 +192,17 @@ body[data-emotion="neutral"]{
 }
 
 body[data-emotion="neutral"] .form-step{
-    background-color: #76fa54;
+    background-color: turquoise;
     transition: all 2.5s ease;
 }
 
 body[data-emotion="neutral"] .form-step{
-    border-top: 10px solid #76fa54;
+    border-top: 10px solid turquoise;
 }
 
 body[data-emotion="neutral"] .form-body .form-next{
     margin: 0 !important;
-    background-color: #76fa54;
+    background-color: turquoise;
     transition: all 2.5s ease;
 }
 
@@ -216,81 +246,145 @@ body[data-emotion="neutral"] .options .option-w-icon svg{
     display: none;
 }
 
-/* SAD ------------------------------------------------------------------------------------------*/
+body[data-emotion="neutral"] .btn-icon.color-primary.semi-bold svg{
+    display: none;
+}
 
-body[data-emotion="sad"]{
+body[data-emotion="neutral"] .tag svg{
+    display: none;
+}
+
+body[data-emotion="neutral"] .form-content.form-column.w-progress svg{
+    display: none;
+}
+
+/*  */
+
+body[data-emotion="neutral"] .form-content .form-grid {
+    display: block;
+}
+
+body[data-emotion="neutral"] .form-grid .form-body{
+    width: 100%;
+}
+
+body[data-emotion="neutral"] a.btn-primary{
+    background-color: turquoise;
+}
+
+body[data-emotion="neutral"] a.btn-primary:hover{
+    background-color: turquoise;
+}
+
+/* DISGUSTED ------------------------------------------------------------------------------------------*/
+
+body[data-emotion="disgusted"]{
     background-color: #fff;
 }
 
-body[data-emotion="sad"]{
+body[data-emotion="disgusted"]{
     font-size: 12px;
 }
 
-body[data-emotion="sad"] .form-step{
+body[data-emotion="disgusted"] .form-step{
     background-color: antiquewhite;
     transition: all 2.5s ease;
 }
 
-body[data-emotion="sad"] .form-step{
+body[data-emotion="disgusted"] .form-step{
     border-top: 10px solid antiquewhite;
 }
 
-body[data-emotion="sad"] .form-next{
+body[data-emotion="disgusted"] .form-next{
     background-color: antiquewhite;
     transition: all 2.5s ease;
 }
 
-body[data-emotion="sad"] #download-old-tickets{
+body[data-emotion="disgusted"] #download-old-tickets{
     background-color: antiquewhite;
 }
 
-body[data-emotion="sad"] h2{
+body[data-emotion="disgusted"] h2{
     font-size: 25px;
 }
 
-body[data-emotion="sad"] #do-payment{
+body[data-emotion="disgusted"] #do-payment{
     font-size: 20px;
 }
 
-body[data-emotion="sad"] .row-center > *{
+body[data-emotion="disgusted"] .row-center > *{
     margin: 0 10px 0 0;
 }
 
-body[data-emotion="sad"] li .row-center h6{
+body[data-emotion="disgusted"] li .row-center h6{
     display:block;
 }
 
-body[data-emotion="sad"] .buttons-3{
+body[data-emotion="disgusted"] .buttons-3{
     flex-flow: row;
 }
 
-body[data-emotion="sad"] a.btn-icon-text.btn-icon-text-3{
+body[data-emotion="disgusted"] a.btn-icon-text.btn-icon-text-3{
     text-indent: 0;
     font-size: 14px;
 }
 
-body[data-emotion="sad"] .dropdown .dropdown-toggle svg{
+body[data-emotion="disgusted"] .dropdown .dropdown-toggle svg{
     display: block;
 }
 
-body[data-emotion="sad"] .form-heading svg{
+body[data-emotion="disgusted"] .form-heading svg{
+    display: none;
+}
+
+body[data-emotion="disgusted"] .form-body a svg{
     display: block;
 }
 
-body[data-emotion="sad"] .form-body a svg{
+body[data-emotion="disgusted"] .age-picker::before{
+    display: none;
+}
+
+body[data-emotion="disgusted"] .affiliation-dropdown.checked .info svg{
+    display: none;
+}
+
+body[data-emotion="disgusted"] .btn-icon-left svg{
     display: block;
 }
 
-body[data-emotion="sad"] .age-picker::before{
-    display: block;
+body[data-emotion="disgusted"] .options .option-w-icon svg{
+    display: none;
 }
 
-body[data-emotion="sad"] .affiliation-dropdown.checked .info svg{
-    display: block;
+body[data-emotion="disgusted"] .btn-icon.color-primary.semi-bold svg{
+    display: none;
 }
 
-body[data-emotion="sad"] .btn-icon-left svg{
-    display: block;
+body[data-emotion="disgusted"] .tag svg{
+    display: none;
+}
+
+body[data-emotion="disgusted"] .form-content.form-column.w-progress svg{
+    display: none;
+}
+
+/*  */
+
+body[data-emotion="disgusted"] .form-content .form-grid {
+    display: grid;
+}
+
+body[data-emotion="disgusted"] .form-grid .form-body{
+    width: 90%;
+}
+
+body[data-emotion="disgusted"] a.btn-primary{
+    background-color: #FF9E18;
+}
+
+body[data-emotion="disgusted"] a.btn-primary:hover{
+    background-color: #FF9E18;
 }
 
 /* ANGRY ------------------------------------------------------------------------------------------*/
@@ -396,6 +490,40 @@ body[data-emotion="angry"] .affiliation-dropdown.checked .info svg{
 
 body[data-emotion="angry"] .btn-icon-left svg{
     display: block;
+}
+
+body[data-emotion="angry"] .options .option-w-icon svg{
+    display: block;
+}
+
+body[data-emotion="angry"] .btn-icon.color-primary.semi-bold svg{
+    display: block;
+}
+
+body[data-emotion="angry"] .tag svg{
+    display: block;
+}
+
+body[data-emotion="angry"] .form-content.form-column.w-progress svg{
+    display: block;
+}
+
+/*  */
+
+body[data-emotion="angry"] .form-content .form-grid {
+    display: grid;
+}
+
+body[data-emotion="angry"] .form-grid .form-body{
+    width: 90%;
+}
+
+body[data-emotion="angry"] a.btn-primary{
+    background-color: #FF9E18;
+}
+
+body[data-emotion="angry"] a.btn-primary:hover{
+    background-color: #FF9E18;
 }
 
 /* HAPPY ------------------------------------------------------------------------------------------*/

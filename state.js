@@ -16,7 +16,7 @@ const updateAffiliation = (step) => {
 const isStep = (step) => location.pathname.includes(step)
 
 const initStep0 = () => {
-    if (!isStep('welcome.html')) return
+    if (!isStep('step-00.html')) return
 
     const affiliation = getAffiliation()
     if (affiliation) {
@@ -127,7 +127,7 @@ const initStep4 = () => {
         chosenBtn?.classList.add('active')
     }
     
-    const btn = document.querySelector('a[href="step-06.html"]')
+    const btn = document.querySelector('a[href="step-05.html"]')
     if (!btn) return
     btn.addEventListener('click', (event) => {
         const active = document.querySelector('a.btn-big-icon.btn-shift.active')
@@ -142,7 +142,7 @@ const initStep4 = () => {
 }
 
 const initStep6 = () => {
-    if (!isStep('step-06.html')) return
+    if (!isStep('step-05.html')) return
 
     const affiliation = getAffiliation()
     if (affiliation) {
@@ -151,7 +151,7 @@ const initStep6 = () => {
         chosenBtn?.classList.add('active')
     }
     
-    const btn = document.querySelector('a[href="step-10.html"]')
+    const btn = document.querySelector('a[href="step-06.html"]')
     if (!btn) return
     btn.addEventListener('click', (event) => {
         const active = document.querySelector('a.btn-big-icon.btn-shift.active')

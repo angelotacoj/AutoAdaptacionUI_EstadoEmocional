@@ -1,7 +1,7 @@
 const elVideo = document.getElementById('video')
 
 const positiveEmotions = ['neutral', 'happy']
-const negativeEmotions = ['sad', 'angry']
+const negativeEmotions = ['angry', 'disgusted']
 
 const isPositiveEmotion = (emotion) => positiveEmotions.includes(emotion)
 const isNegativeEmotion = (emotion) => negativeEmotions.includes(emotion)
@@ -10,7 +10,7 @@ const shouldUpdateUI = (prev, current) => {
     console.log(`${prev} vs. ${current}`)
     if (isPositiveEmotion(prev) && isNegativeEmotion(current)) return true
     if (isNegativeEmotion(prev) && isPositiveEmotion(current)) return false
-    if (isNegativeEmotion(prev) && isNegativeEmotion(current)) return false
+    if (isNegativeEmotion(prev) && isNegativeEmotion(current)) return true
     if (isPositiveEmotion(prev) && isPositiveEmotion(current)) return false
 }
 
