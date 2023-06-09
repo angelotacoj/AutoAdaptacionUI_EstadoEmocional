@@ -16,17 +16,17 @@ canvas{
 /* UI - Interfaz 0 ------------------------------------------------------------------------------------------*/
 
 .form-step{
-    background-color: turquoise;
+    background-color: #ea51f7;
     transition: background-color 2.5s ease;
 }
 
 .form-step{
-    border-top: 10px solid turquoise;
+    border-top: 10px solid #ea51f7;
 }
 
 .form-body .form-next{
     margin: 0 !important;
-    background-color: turquoise;
+    background-color: #ea51f7;
     transition: background-color 2.5s ease;
 }
 
@@ -111,11 +111,11 @@ body{
 }
 
 a.btn-primary{
-    background-color: turquoise;
+    background-color: #ea51f7;
 }
 
 a.btn-primary:hover{
-    background-color: turquoise;
+    background-color: #ea51f7;
 }
 
 .btn-icon.color-primary.semi-bold svg{
@@ -192,22 +192,22 @@ body[data-emotion="neutral"]{
 }
 
 body[data-emotion="neutral"] .form-step{
-    background-color: turquoise;
+    background-color: #ea51f7;
     transition: all 2.5s ease;
 }
 
 body[data-emotion="neutral"] .form-step{
-    border-top: 10px solid turquoise;
+    border-top: 10px solid ea51f7;
 }
 
 body[data-emotion="neutral"] .form-body .form-next{
     margin: 0 !important;
-    background-color: turquoise;
+    background-color: #ea51f7;
     transition: all 2.5s ease;
 }
 
 body[data-emotion="neutral"] #download-old-tickets{
-    background-color: turquoise;
+    background-color: #ea51f7;
 }
 
 body[data-emotion="neutral"] .row-center > *{
@@ -269,11 +269,11 @@ body[data-emotion="neutral"] .form-grid .form-body{
 }
 
 body[data-emotion="neutral"] a.btn-primary{
-    background-color: turquoise;
+    background-color: #ea51f7;
 }
 
 body[data-emotion="neutral"] a.btn-primary:hover{
-    background-color: turquoise;
+    background-color: #ea51f7;
 }
 
 /* DISGUSTED ------------------------------------------------------------------------------------------*/
