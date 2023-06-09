@@ -14,7 +14,8 @@ const shouldUpdateUI = (prev, current) => {
     if (isPositiveEmotion(prev) && isPositiveEmotion(current)) return false
 }
 
-let lastEmotion = 'neutral'
+let lastEmotion = localStorage.getItem('emotion') || 'neutral'
+document.body.setAttribute('data-emotion', lastEmotion)
 
 navigator.getMedia = (navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia)
 
@@ -74,6 +75,7 @@ elVideo.addEventListener('play', async () => {
         if (shouldUpdateUI(lastEmotion, predominant)) {
             document.body.setAttribute('data-emotion', predominant)
             lastEmotion = predominant
+            localStorage.setItem('emotion', predominant)
         }
 
         console.log('--- lastEmotion =', lastEmotion)
